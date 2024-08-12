@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f0e3;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.menu-card {
+    width: 600px;
+    background-color: #fff;
+    border: 2px solid #d4a373;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.cover, .back-cover {
+    text-align: center;
+    padding: 20px;
+    background-color: #d45d79;
+    color: white;
+}
+
+.cover h1 {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 36px;
+}
+
+.tagline {
+    font-size: 18px;
+    margin-top: 10px;
+    font-style: italic;
+}
+
+.menu-section {
+    padding: 20px;
+    border-bottom: 1px solid #d4a373;
+}
+
+.menu-section h2 {
+    color: #d45d79;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.menu-section ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.menu-section ul li {
+    font-size: 18px;
+    padding: 5px 0;
+}
+
+.back-cover {
+    background-color: #d4a373;
+    color: white;
+}
+
+.thank-you {
+    font-size: 24px;
+    font-weight: bold;
+}
